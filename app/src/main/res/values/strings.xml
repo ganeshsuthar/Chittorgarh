@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Chittorgarh</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="welcome">Welcome</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="save_password">Save Password</string>
+    <string name="forget_password">Forgotten Password ?</string>
+    <string name="not_a_member_yet_sing_up_here">Not a Member Yet? Sign Up Here</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="by_clicking_sing_up_you_agree_all_the_terms_and_conditions">By Clicking Sign up you Agree All The Terms and Conditions</string>
+    <string name="already_have_a_account_login_here">Already Have A Account? Login Here</string>
+    <string name="mobile">Mobile</string>
+    <string name="or">OR</string>
+    <string name="home">Home</string>
+    <string name="drawer_open">Opend</string>
+    <string name="drawer_close">closed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

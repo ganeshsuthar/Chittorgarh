@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp15"
+        android:layout_weight=".1">
+        <com.m.chittorgarh.Halper.FormattedTextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/sp16"
+            android:paddingBottom="@dimen/dp10"
+            android:paddingTop="@dimen/dp10"
+            android:id="@+id/sub"
+            android:textColor="@color/secondary_text"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

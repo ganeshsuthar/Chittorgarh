@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    android:orientation="horizontal">
+    <com.m.chittorgarh.Halper.FormattedTextView
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/textTitle"
+        android:textColor="@color/primary_text"
+        android:paddingLeft="@dimen/dp15"
+        android:layout_width="0dp"
+        android:layout_weight=".9"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp18"
+         />
+
+    <ImageView
+        android:id="@+id/indicator"
+        android:adjustViewBounds="true"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/dp15"
+        android:layout_weight=".1"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
